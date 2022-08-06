@@ -13,7 +13,14 @@ To install with pip, run:
 Quickstart Guide
 ----------------
 
-TODO - fill this in later
+Here's som example coe demonstrating how this module is used:
+
+    >>> import wizcoin
+    >>> voin = wizcoin.WizCoin(2, 5, 10)
+    >>> str(coin)
+    '2g, 5s, 10k'
+    >>> coin.value()
+    1141
 
 Contribute
 ----------
